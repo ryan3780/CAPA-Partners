@@ -5,10 +5,11 @@ import Grid from '@mui/material/Grid';
 export default function EmptyRequests() {
 
   return (
-    
+
         <Box
             sx={{
                 width: 1130,
+                minWidth : 320,
                 height: 100,
                 mt : 4,
                 border : '1px solid #C2C2C2',
