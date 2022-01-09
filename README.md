@@ -7,6 +7,7 @@ src/
 ┃ ┣ CardInfo.tsx               # 요청서 세부내용
 ┃ ┣ CardList.tsx               # 요청서
 ┃ ┣ Drawer.tsx                 # 햄버거 메뉴 아이콘 탭
+┃ ┣ EmptyRequests.tsx          # 조건에 맞는 요청서가 없는 경우
 ┃ ┣ GridSelectAndSwitch.tsx    # 필터링 상위
 ┃ ┣ Header.tsx                 # 최상단 Bar
 ┃ ┣ Interface.tsx              # 필요 인터페이스 
