@@ -157,6 +157,8 @@ export default function MultipleSelectCheckmarks({NotMobile} : NotMobile) {
           "&:hover": {
             cursor : "pointer"
           },
+        mt : 3, 
+        mb : 3
         }} 
       >
       <RefreshIcon sx={{color: '#2196F3', ml : '24px', mr : '12px'}} />
