@@ -3,6 +3,8 @@ import CardInfo from './CardInfo';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import {Data} from './Interface';
+import EmptyRequests from './EmptyRequests'
+
 
 interface IsConsult{
     isConsult : boolean;
@@ -70,6 +72,8 @@ export default function DealCard({isConsult, isFilterd, NotMobile} : IsConsult) 
         }
     }, [isConsult, isFilterd])
 
+
+
   return (
     <Grid
         container
@@ -79,7 +83,7 @@ export default function DealCard({isConsult, isFilterd, NotMobile} : IsConsult) 
         item
         lg={12} md={8} sm={6} xs={3} 
     >
-     {filterData.map((item, idx) => <CardInfo key={idx} data={item} NotMobile={NotMobile} />)}
+     {filterData.length === 0 ? <EmptyRequests /> : filterData.map((item, idx) => <CardInfo key={idx} data={item} NotMobile={NotMobile} />)}
     </Grid>
   );
 }
