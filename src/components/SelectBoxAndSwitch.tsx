@@ -123,13 +123,14 @@ export default function MultipleSelectCheckmarks({NotMobile} : NotMobile) {
           ))}
         </Select>
         </FormControl>
-        <FormControl sx={{ m: 1, width:'100px'}}>
+        <FormControl sx={{ m: 1, width:'100px', mr : 3}}>
           <Select
             sx={{height : 40, 
               "&:hover": {
               "&& fieldset": {
                 border: "1px solid #2196F3"
-              }
+              },
+              
             }}}
             multiple
             displayEmpty
@@ -151,7 +152,12 @@ export default function MultipleSelectCheckmarks({NotMobile} : NotMobile) {
         onClick={handleReset}
         display="flex"
         justifyContent="center"
-        alignItems="center" 
+        alignItems="center"
+        sx={{
+          "&:hover": {
+            cursor : "pointer"
+          },
+        }} 
       >
       <RefreshIcon sx={{color: '#2196F3', ml : '24px', mr : '12px'}} />
       필터링 리셋
