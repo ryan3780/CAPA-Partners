@@ -1,5 +1,9 @@
 ## CAPA-PARTNERS
 
+<br/>
+<img src="./capa.gif">
+<br/>  
+
 ## src 폴더 구조
 ```
 src/
