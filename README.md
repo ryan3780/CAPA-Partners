@@ -1,7 +1,7 @@
 ## CAPA-PARTNERS
 
 <br/>
-<img src="./capa-partners.gif">
+<img src="https://user-images.githubusercontent.com/45477679/148711166-618bacd7-3648-4d47-925f-a4e14d1aa5cc.gif">
 <br/>  
 
 ## src 폴더 구조
