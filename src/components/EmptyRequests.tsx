@@ -1,14 +1,15 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import { NotMobile } from './Interface';
 
 
-export default function EmptyRequests() {
-
+export default function EmptyRequests({NotMobile}:NotMobile) {
+    const width = NotMobile ? 1130 : 320;
   return (
 
         <Box
             sx={{
-                width: 1130,
+                width: width,
                 minWidth : 320,
                 height: 100,
                 mt : 4,
@@ -19,7 +20,8 @@ export default function EmptyRequests() {
                 fontSize : '14px',
                 fontFamily : 'Noto Sans KR Regular',
                 fontWeight : 400,
-                color : '#939FA5'
+                color : '#939FA5',
+                mr : '155px'
             }}
         >
             <Grid

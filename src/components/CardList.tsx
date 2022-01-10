@@ -82,7 +82,7 @@ export default function DealCard({isConsult, isFilterd, NotMobile} : IsConsult) 
         alignItems="center"
         item
     >
-     {filterData.length === 0 ? <EmptyRequests /> : filterData.map((item, idx) => <CardInfo key={idx} data={item} NotMobile={NotMobile} />)}
+     {filterData.length === 0 ? <EmptyRequests NotMobile={NotMobile} /> : filterData.map((item, idx) => <CardInfo key={idx} data={item} NotMobile={NotMobile} />)}
     </Grid>
   );
 }
