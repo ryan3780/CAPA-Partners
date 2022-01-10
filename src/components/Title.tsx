@@ -1,12 +1,20 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import {NotMobile} from './Interface';
+import Grid from '@mui/material/Grid';
+
 
 
 export default function Title({NotMobile}:NotMobile) {
   const ml = NotMobile ? '155px' : '20px';
   return (
-    <Box sx={{ width: '100%'}}>
+    <Grid
+      container
+      direction="row"
+      justifyContent="flex-start"
+      sx={{maxWidth:1440}}
+      >
+        <Box>
         <Typography  
           gutterBottom 
           component="div" 
@@ -36,6 +44,7 @@ export default function Title({NotMobile}:NotMobile) {
           }}>
           파트너님에게 딱 맞는 요청서를 찾아보세요.
         </Typography>
-    </Box>
+        </Box>
+        </Grid>
   );
 }
