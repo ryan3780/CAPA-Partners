@@ -81,7 +81,6 @@ export default function DealCard({isConsult, isFilterd, NotMobile} : IsConsult) 
         justifyContent="flex-start"
         alignItems="center"
         item
-        lg={12} md={8} sm={6} xs={3} 
     >
      {filterData.length === 0 ? <EmptyRequests /> : filterData.map((item, idx) => <CardInfo key={idx} data={item} NotMobile={NotMobile} />)}
     </Grid>
