@@ -1,7 +1,7 @@
 ## CAPA-PARTNERS
 
 <br/>
-<img src="./capa.gif">
+<img src="./capa-p.gif">
 <br/>  
 
 ## src 폴더 구조
