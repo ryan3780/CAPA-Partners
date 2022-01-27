@@ -17,7 +17,7 @@ src/
 ┃ ┣ Interface.tsx              # 필요 인터페이스 
 ┃ ┣ SelectBoxAndSwitch.tsx     # 필터링 로직
 ┃ ┗ Title.tsx                  # 상단 글귀
-┣ img/                         # 필요 이미지 집합
+┣ img/                         # 필요 이미지 집합 
 ┃ ┣ capa-p-b.png               
 ┃ ┗ capa-p.png
 ┣ App.css
